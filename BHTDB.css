@@ -1,0 +1,122 @@
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        background: linear-gradient(rgba(180,0,0,0.85), rgba(180,0,0,0.85)),
+                  url('images/background.png') center/cover no-repeat;
+        color: #ffffff;
+        text-align: center;
+    }
+	
+	 .home {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      font-size: 14px;
+      border: 1px solid #fff;
+      padding: 6px 14px;
+      text-decoration: none;
+      color: #fff;
+    }
+	
+	.logo {
+		position: absolute;
+		top: 10px;
+		right: 70px;
+		width: 100px;
+	}
+	
+	.logo1 {
+		position: absolute;
+		top: 5px;
+		right: 10px;
+		width: 80px;
+	}
+	
+	.tittle {
+		position: center;
+		top: 20px;
+		width: 80%;
+		margin-bottom: -10px;
+	}
+
+    .container {
+        padding: 40px 20px;
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    .hero h1 {
+        font-size: 5rem;
+        font-weight: 800;
+        line-height: 1.2;
+    }
+
+    .hero span {
+        color: #ffdede;
+    }
+
+    .blood-drop {
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+
+    .section {
+        margin-top: 30px;
+    }
+	
+
+    .section h2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .section p {
+        font-size: 2rem;
+        margin: 5px 0;
+    }
+
+    .highlight {
+        font-weight: 700;
+        font-size: 1.3rem;
+    }
+
+    .cta {
+        margin-top: 0px;
+        padding: 15px 30px;
+        background: white;
+        color: #b30000;
+        font-weight: 700;
+        font-size: 1.2rem;
+        border-radius: 50px;
+        display: inline-block;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    .cta:hover {
+        background: #ffe5e5;
+    }
+
+    footer {
+		
+        padding: 20px;
+        font-size: 0.9rem;
+        background: rgba(0,0,0,0.2);
+    }
+
+    @media(max-width: 768px) {
+        .hero h1 {
+            font-size: 2rem;
+        }
+        .section h2 {
+            font-size: 1.4rem;
+        }
+    }
+</style>

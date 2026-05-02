@@ -1,0 +1,133 @@
+	<style>
+	
+    :root {
+      --red: #c4161c;
+      --dark-red: #9f1217;
+      --white: #ffffff;
+      --light: #f7f7f7;
+    }
+
+    * {
+      box-sizing: border-box; margin: 0; padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: linear-gradient(rgba(180,0,0,0.85), rgba(180,0,0,0.85)),
+                  url('images/background.png') center/cover no-repeat;
+      color: #ffffff;
+    }
+	
+	.home {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      font-size: 14px;
+      border: 1px solid #fff;
+      padding: 6px 14px;
+      text-decoration: none;
+      color: #fff;
+    }
+	
+	.logo {
+		position: absolute;
+		top: 10px;
+		right: 70px;
+		width: 100px;
+	}
+	
+	.logo1 {
+		position: absolute;
+		top: 5px;
+		right: 10px;
+		width: 80px;
+	}
+	
+	.tittle {
+		top: 10px;
+		width: 80%;
+	}
+
+    header {
+      color: var(--white);
+      padding: 3rem 1.5rem;
+      text-align: center;	  
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 7rem;
+      letter-spacing: 10px;
+	  color: white;
+	  font-family: Fantasy;
+	  text-shadow: 2px 5px 10px black;
+    }
+	
+    header p {
+      margin-top: 0rem;
+	  margin-bottom: 1rem;
+      font-size: 2rem;
+      font-weight: 500;
+	  color: white;
+	  font-family: Fantasy;
+	  text-shadow: 2px 5px 10px black;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: -3rem auto 3rem;
+      padding: 0 1rem;
+    }
+
+    .grid {
+      display: grid;
+	  margin-top: 10px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: var(--red);
+      color: var(--white);
+      border-radius: 16px;
+      padding: 1.5rem;
+      box-shadow: 0 0px 25px rgba(0,0,0,0.35);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+	  color: white;
+	  text-align: center;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 14px 30px rgba(0,0,0,0.2);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .numbers {
+      margin-top: 0.75rem;
+      line-height: 1.6;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+
+    footer {
+      background: var(--dark-red);
+      color: var(--white);
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
